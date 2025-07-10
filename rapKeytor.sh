@@ -18,7 +18,7 @@ echo "[ by: foorw1nner | x.com/foorw1nner | hackerone.com/foorw1nner | github.co
 	echo
 	echo "-h		Show This Help Message              "
 	echo
-	echo "-start		Start the tool					" 
+	echo "-start		Start the tool			    " 
 	echo "-nocolor	Disable colors in cli output"
 	echo
 	echo "+================================================+"
@@ -37,7 +37,7 @@ then
 
 		if echo "$regex_extract" | grep -q "\["
 		then
-			if echo "$*" | tr -s ' ' '\n' | grep -q "^\-nocolor"
+			if [ $# -eq 2 ]
 			then
 				echo "$url $regex_extract"
 			else
