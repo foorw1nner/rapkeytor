@@ -14,7 +14,8 @@ Use it to automate the discovery of sensitive tokens that may have been exposed 
 
 🦖 Track. Hunt. Leak. With rapKeytor.
 
-![image](https://github.com/user-attachments/assets/cdd025e9-93b2-4ffd-81b3-043027ae1787)
+![image](https://github.com/user-attachments/assets/453996c6-6ccb-41b3-9b11-d77673f42d2e)
+
 
 
 Installation
